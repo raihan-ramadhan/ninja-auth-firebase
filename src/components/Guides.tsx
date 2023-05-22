@@ -24,7 +24,7 @@ const guides = [
   },
 ];
 
-const GuidesAccordion = () => {
+const Guides = () => {
   return (
     <AccordionRoot type="single">
       <div className="m-5 shadow-[0_2px_10px] shadow-black/5">
@@ -39,4 +39,4 @@ const GuidesAccordion = () => {
   );
 };
 
-export default GuidesAccordion;
+export default Guides;

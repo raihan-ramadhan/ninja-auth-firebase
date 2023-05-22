@@ -42,7 +42,7 @@ export const AccordionTrigger = forwardRef<
     >
       {children}
       <ChevronDownIcon
-        className="text-main-primary ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180 h-6 w-6"
+        className="text-main-accent ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180 h-6 w-6"
         aria-hidden
       />
     </Accordion.Trigger>
